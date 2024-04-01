@@ -26,7 +26,6 @@ For example, to run an onchain fuzzing campaign on Ethereum targeting WETH, run:
 # -f: (Optional) allow attack to get flashloan
 
 ityfuzz evm\
-    -o\
     -t 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\
     --onchain-block-number 0\
     -c ETH\
